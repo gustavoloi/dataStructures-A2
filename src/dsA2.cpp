@@ -36,7 +36,7 @@ int main(void)
 
 	//File management
 	FILE* inputFile = NULL;
-	inputFile = fopen("words.txt", "r");
+	inputFile = fopen("../words.txt", "r");
 
 
 	if (inputFile == NULL) //File error checking
